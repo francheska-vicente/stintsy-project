@@ -3,11 +3,13 @@ In digital communities and forums on the internet, users often choose to remain 
 
 With this, ways to automate checking for toxicity in online text should be improved to foster a safe and respectful online environment.
 
-The [`Toxic Comment Classification Challenge`](https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge/overview) is a Kaggle challenge by the [`Conversation AI team`](https://conversationai.github.io/), which is composed of researchers from both [`Jigsaw`](https://jigsaw.google.com/) and `Google`. This challenge invites participants to build a multi-headed model that can accurately detect the types of toxicity (i.e.,toxic, severe toxic, obscene, threat, insult, and identity hate) better than Perspective’s [`current models`](https://github.com/conversationai/unintended-ml-bias-analysis).
+The [`Toxic Comment Classification Challenge`](https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge/overview) is a Kaggle challenge by the [`Conversation AI team`](https://conversationai.github.io/), which is composed of researchers from both [`Jigsaw`](https://jigsaw.google.com/) and `Google`. This challenge invites participants to build a multi-headed model that can accurately detect the types of toxicity (i.e.,toxic, severe toxic, obscene, threat, insult, and identity hate) better than Perspective’s [`current models`](https://github.com/conversationai/unintended-ml-bias-analysis). Thus, the dataset given contains a large number of Wikipedia comments which have been labeled by human raters for toxic behavior. 
 
-The dataset given contains a large number of Wikipedia comments which have been labeled by human raters for toxic behavior.
+This project's best model received a private ROC AUC score of **0.97559**, and public ROC AUC score of **0.97622**.
 
 ## Project Files and Folders
+This Github Repository contains three folders, and two main files.
+
 #### Folders
 | Folders                        | Description                                                        |
 |--------------------------------|--------------------------------------------------------------------|
